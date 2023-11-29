@@ -12,13 +12,14 @@ public class Servico {
     private String tipo;
     private LocalDate dataCotacao;
     private LocalDate dataExecucao;
+    private Imovel localLimpeza;
     private StatusServico statusServico;
     private double valor;
     private Cliente cliente;
     private List<Funcionario> faxineiros;
     private String avaliacao;
 
-    public void agendarCotacao(Cliente cliente, LocalDate dataCotacao, String tipo) { }
+    public void agendarCotacao(Cliente cliente, LocalDate dataCotacao, String tipo, Imovel localLimpeza) { }
 
     public void gerarFormularioReserva() { }
 
