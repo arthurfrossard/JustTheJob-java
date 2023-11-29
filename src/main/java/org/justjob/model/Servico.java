@@ -19,11 +19,11 @@ public class Servico {
     private List<Funcionario> faxineiros;
     private String avaliacao;
 
-    public void agendarCotacao(Cliente cliente, LocalDate dataCotacao, String tipo, Imovel localLimpeza) { }
+    public void agendarCotacao(Cliente cliente, LocalDate dataCotacao, Imovel localLimpeza) { }
 
     public void gerarFormularioReserva() { }
 
-    public void agendarServico(LocalDate dataExecucao, double valor) { }
+    public void agendarServico(LocalDate dataExecucao, double valor, String tipo) { }
 
     public void alocarFaxineiros(List<Funcionario> faxineiros) { }
 
