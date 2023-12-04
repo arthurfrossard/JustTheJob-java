@@ -10,4 +10,10 @@ import java.util.List;
 public class Cliente extends Pessoa{
     private List<Servico> historicoDeServicos;
     private List<Imovel> imoveis;
+
+    public Servico visualizarHistoricoServicos() { return null; }
+
+    public List<Imovel> visualizarImoveis() { return null; }
+
+    public Cliente visualizarDadosCliente(String cpf) { return null; }
 }

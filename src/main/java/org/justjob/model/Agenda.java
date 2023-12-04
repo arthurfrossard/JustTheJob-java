@@ -11,4 +11,8 @@ public class Agenda {
     private List<LocalDate> diasAlocados;
 
     public List<LocalDate> solicitarDatasDisponiveis() {  return null;  }
+
+    public LocalDate verificarSeDataEstaDisponivel(LocalDate data) {  return null;  }
+
+    public boolean verificarCompromissos(List<LocalDate> periodo) {  return true;  }
 }
