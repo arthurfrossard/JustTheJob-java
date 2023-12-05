@@ -13,9 +13,9 @@ public class Fatura {
     private double valorPago;
     private double valorDevido;
 
-    public void atualizarPagamentoParcial() {  }
+    public void atualizarPagamentoParcial(double valor) {  }
 
-    public void atualizarPagamentoTotal() {  }
+    public void atualizarPagamentoTotal(double valor) {  }
 
     public void gerarFatura(){  }
 
